@@ -65,7 +65,7 @@ var leop = new Leopard ('Leonard');
 /*
  * 6. Write a small menu selection function by using if-else and switch, input number, output name of your order
  */
-function menu(selection){
+function menu(selection) {
      var drink;
      switch(input){
      	case 0:
@@ -87,9 +87,24 @@ function menu(selection){
 /*
  * 7. var studentScores = [50, 67, 80, 90, 100, 30, 88, 68]; write a program by using studentScores array ,for loop and conditions.
  */
+var studentScores = [50, 67, 80, 90, 100, 30, 88, 68];
+ 
+ function theforloopscores(array) {
+ 	for (i = 0; i<=array.length-1; i++) {
+ 		console.log(array[i]);
+ 	}
+ }
 
+ theforloopscores(studentScores);
 
 
 /*
  * 8. var studentScores = [50, 67, 80, 90, 100, 30, 88, 68]; write a program by using studentScores array , array.forEach and conditions.
  */
+ var studentScores = [50, 67, 80, 90, 100, 30, 88, 68];
+
+ function foreachScores(array) {
+ 	console.log(array);
+ }
+
+studentScores.forEach(foreachScores); 
