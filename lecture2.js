@@ -2,8 +2,8 @@
  * 1. explain the special meaning of the following special characters
  \0 the null character                         //This special character returns a character as null.
  \n new line                                   //This special character breaks a line and continues it on a new line.
- \r carriage return                            //
- \v vertical tab                               //
+ \r carriage return                            //This special character moves the cursor (or print head) to the beginning of the current line.
+ \v vertical tab                               //This special character structures content so that it can be viewed one content at a time.
  \t                                            //This special character adds a tabbed indent to a line.
  \b backspace                                  //This special character deletes the last letter which comes before the character.
  \f form feed                                  //This special character sends the cursor to the next page.
